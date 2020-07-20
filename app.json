@@ -18,13 +18,13 @@
 		],
 		"ios": {
 			"supportsTablet": true,
-			"buildNumber": "10"
+			"buildNumber": "14"
 		},
 		"web": {
 			"favicon": "./assets/favicon.png"
 		},
 		"android": {
-			"versionCode": 10
+			"versionCode": 14
 		}
 	}
 }
