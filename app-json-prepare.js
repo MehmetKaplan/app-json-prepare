@@ -24,7 +24,7 @@ const appJsonPrepare = () => {
 	fs.writeFileSync('./app.json', `${JSON.stringify(l_retval, null, '\t')}`);
 
 	// log data
-	console.log(`\x1b[41m\x1b[34mFinal app.json configuration:\x1b[0m`);
+	console.log(`\x1b[41m\x1b[33mFinal app.json configuration:\x1b[0m`);
 	console.log(JSON.stringify(l_retval, null, '\t'));
 };
 
